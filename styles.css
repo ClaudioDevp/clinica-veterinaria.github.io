@@ -72,6 +72,7 @@ h2 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 form input, form button {
   padding: 0.75rem;
   font-size: 1rem;
@@ -169,6 +170,12 @@ p{
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 
+}
+label {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 /* Inputs y botón */
@@ -289,4 +296,103 @@ input:focus {
   font-size: 1.2rem;
   color: #333;
   font-weight: bold;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 3px rgba(45, 44, 48, 0.329);
+  font-size: 1rem;
+}
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(54, 9, 236, 0.329);
+}
+/* cards */
+.form-card_1 {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 300px;
+  background-color: #9d71c0c9;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.form-card_2 {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 300px;
+  background-color: #5f96acc9;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-card_3 {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 300px;
+  background-color: #e7c06ac9;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-card_4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  background-color: #52967dc9;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 50%;
+}
+h3, hr{
+  color: #2b1d1d98;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+.numcita {
+  color: #e6e3e3;
+  font-weight: 900; 
+  text-transform: uppercase; 
+  letter-spacing: 0.1rem; 
+  font-size: 3rem; 
+  font-family: 'Arial Black', 'Impact', sans-serif;
+}
+.msj {
+  border-radius: 8px; 
+  margin: 16px 0; 
+  font-size: 12px; 
+  font-weight: 500; 
+  color: #0061645d;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white; 
+  padding: 12px 16px; 
+  z-index: 9999;
+}
+.msj p {
+  margin: 0; 
+  font-size: 12px; 
+  color: #333; 
 }
